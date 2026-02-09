@@ -1,4 +1,4 @@
-.product-section{
+.product-section {
   position: relative;
   padding-top: 200px;
 }
@@ -114,6 +114,7 @@
   line-height: 24px;
   color: #515078;
 }
+
 .product-card__action {
   cursor: pointer;
   background-color: #515076;
@@ -130,7 +131,7 @@
   color: #515076;
 }
 
-.product-section__action-all{
+.product-section__action-all {
   position: absolute;
   top: -200px;
   left: 0px;

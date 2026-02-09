@@ -1,5 +1,5 @@
 // Получаем элементы управления из DOM
-const recolorCardWhereButtonPressed = document.querySelector(".product-section__action-all"); 
+const cardRecolorButton = document.querySelector(".product-section__action-all"); 
 const catalogCard = document.querySelectorAll(".product-card__inner");
 const cardActionButtons = document.querySelectorAll(".product-card__action");
 const resetColorCard = document.querySelector('.product-section__reset');
@@ -35,7 +35,7 @@ const sectionActionButton = document.querySelector(".product-section__action-all
 
 sectionActionButton.addEventListener("click", () => {
     catalogCards.forEach(body => {
-        body.style.backgroundColor = changeRandomColor ();
+        body.style.backgroundColor = changeRandomColor();
     });
 });
 
@@ -56,7 +56,7 @@ headerOutput.addEventListener("mouseover", () => {
     console.log(headerOutput.innerText);
 });
 
-//// Переключает состояние кнопки и отображает активный / неактивный статус
+// Переключает состояние кнопки и отображает активный / неактивный статус
 let toggleButton = document.querySelector(".product-section__toggle");
 
 toggleButton.addEventListener("click", () => {
