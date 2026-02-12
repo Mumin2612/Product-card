@@ -29,7 +29,7 @@ checkLightSpeed(299792459);
 const accessory = "Айфон 15"; 
 const price = 3500; 
 
-function myBudget(budget) {
+function checkPurchase(budget) {
     if (budget >= price) {
         console.log(accessory + " приобретен. Спасибо за покупку!");
     } else {
@@ -37,7 +37,7 @@ function myBudget(budget) {
         console.log(`Вам не хватает ${difference} пополните баланс.`);
     };
 };
-myBudget(3100);
+checkPurchase(3100);
 
 // (Homework-5) (Задание №6) Создать функцию и именовать на свое усмотрение 
 function verifyAge(ageVerification) {
