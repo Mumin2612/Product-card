@@ -6,10 +6,10 @@
 const city = "Варшава";
 const temperature = 3;
 
-function printCityTemperature(city, temperature) {
+function showCityTemperature(city, temperature) {
     console.log("Сейчас в " +  city  +  " температура " +  temperature + " градусов по Цельсию"); 
 };
-printCityTemperature(city, temperature);
+showCityTemperature(city, temperature);
 
 // (Homework-5) (Задание №4): Функция котрая сравнивает скорость света с задданым аргументом.    
 const SPEED_OF_LIGHT = 299792458;
